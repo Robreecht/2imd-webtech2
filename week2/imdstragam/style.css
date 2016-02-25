@@ -1,0 +1,52 @@
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    order: -1;
+    flex: 1 100%; 
+}
+
+nav li {
+    list-style-type: none;
+    flex: 1 100px;
+    text-align: center;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+div {
+    flex: 1 0 25%;
+}
+
+.typography {
+    order: 2;
+}
+
+.ui {
+    order: 3;
+}
+
+.branding {
+    order: 4;
+}
+
+.graffiti {
+    order: 5;
+}
+
+@media (min-width: 60em) {
+    .logo {
+        flex: 1 100px;
+        order: 4;
+    }
+}
