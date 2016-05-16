@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    background-image: url(images/wallpaper-movie-avengers-wallpapers-desktop-hdwallpapers-background.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    margin-top: -10px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Neou thin;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 10px -0.95em 0 0;
+    letter-spacing: 1.02em;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Neou thin;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0 -1.4em 20px 0;
+    letter-spacing: 1.4em;
+    color: yellow;
+}
+
+h3 {
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.picture {
+    display: flex;
+    margin: 10px 10px;
+    position: relative;
+}
+
+.picture:hover {
+    transform: scale(1.02)
+}
+
+#superman {
+    background-image: url(images/GalleryChar_1900x900_MOS_52e05e3fe24a61.04593858.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#batman {
+    background-image: url(images/batman-03.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#wolverine {
+    background-image: url(images/Hugh-Jackman-Wolverine-31.jpg);
+    width: 25%;
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#watchmen {
+    background-image: url(images/Watchmen1.jpg);
+    width: 25%;
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hulk {
+    background-image: url(images/hulk-feature-2.jpg);
+    width: 25%;
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#kickass {
+    background-image: url(images/2013_kick_ass_2-wide.jpg);
+    width: 25%;
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#thor {
+    background-image: url(images/cinematic-clash-thor-vs-superman-thor-524385.jpg);
+    width: 33.33%;
+    height: 175px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ironman {
+    background-image: url(images/iron-man-captain-america-avengers-131760.jpg);
+    width: 33.33%;
+    height: 175px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#spiderman {
+    background-image: url(images/img5.jpg);
+    width: 33.33%;
+    height: 175px;
+    background-size: cover;
+    background-position: center center;
+}
